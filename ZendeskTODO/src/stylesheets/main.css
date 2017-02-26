@@ -1,0 +1,129 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+/* Project Application Styles */
+.container {
+  min-height: 100%;
+  background-color: lightgray;
+  padding: 25px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.header {
+  margin: 10px;
+}
+
+.header form, input {
+  font-size: 24px;
+}
+
+.header > div {
+  width: 50%;
+  display: inline-block;
+  line-height: 20px;
+  height: 20px;
+}
+
+.total-label {
+  margin-right: 28px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.content {
+  width: 100%;
+}
+
+.project-list-container {
+  width: calc(33.3333333% - 20px) ;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 60px;
+  vertical-align: top;
+}
+/* End Project Application Styles */
+
+/* Project Counter Styles */
+.project-counter-box {
+  float: right;
+  background-color: white;
+  box-shadow: 0px 0px 25px 0px #333;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  font-family: 'Anton';
+}
+
+.project-counter-box > div:first-child {
+  font-weight: bold;
+}
+/* End Project Counter Styles */
+
+/* Project List Styles */
+.project-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.project-list-header {
+  background-color: darkgray;
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.project-list-header > div {
+  width: 50%;
+}
+
+.project-list-header .title {
+  display: inline-block;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 100px;
+  height: 100px;
+}
+
+.project-list-item {
+  height: 85px;
+  background-color: white;
+  margin-bottom: 3px;
+  padding-left: 25px;
+  line-height: 85px;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.drop-zone {
+  height: 2;
+  backgroundColor: transparent;
+  transition: height 400ms;
+}
+
+.drop-zone-active {
+  height: 13;
+  background-color: transparent;
+  transition: height 150ms;
+}
+/* End Project List Styles */
